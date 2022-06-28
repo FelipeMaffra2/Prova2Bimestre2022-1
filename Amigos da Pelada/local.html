@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Local</title>
+</head>
+<body>
+    <div class="container-md">
+        <div class="row">
+            <div class="col align-self-start"></div>
+            <div class="col align-self-center">
+                <div class="card">
+                    <br><h4>Cadastro de Local</h4>
+                    <form method="post" onsubmit="cadastraOrganizador()">
+                        <br>
+                        <div class="md-4">
+                            <label for="nomeL">Nome do Local</label><br>
+                            <input type="text" name="nomeL" id="nomeL">
+                        </div>
+                        <div class="md-4">
+                            <label for="endereco">Endereço</label><br>
+                            <input type="text" name="endereco" id="endereco">
+                        </div>
+                        <div class="md-4">
+                            <label for="capa">Capacidade</label><br>
+                            <input type="number" name="capa" id="capa">
+                        </div><br>
+                        <div class="md-4">
+                            <button type="submit" class="btn btn-secondary"><a href="/sucesso.html" class="link">Salvar</a></button>
+                        </div><br>
+                    </form>
+                </div>
+            </div>
+            <div class="col align-self-end"></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Partida</title>
+</head>
+<body>
+    <div class="container-md">
+        <div class="row">
+            <div class="col align-self-start"></div>
+            <div class="col align-self-center">
+                <div class="card">
+                    <br><h4>Dados da Partida</h4>
+                    <form method="post" onsubmit="cadastraPartida()">
+                        <br>
+                            <div class="md-4">
+                                <label for="time">ID Time</label><br>
+                                <Input type="text" name="time" id="time"></Input>
+                            </div>
+                            <div class="md-4">
+                                <label for="organizador">ID Organizador</label><br>
+                                <Input type="text" name="organizador" id="organizador" ></Input>
+                            </div>
+                            <div class="md-4">
+                                <label for="local">Local</label><br>
+                                <Input type="text" name="local" id="local"></Input>
+                            </div>
+                            <div class="md-4">
+                                <label for="calendario">Dia do Jogo</label><br>
+                                <Input type="date" name="calendario" id="calendario"></Input> 
+                            </div><br>
+                            <div class="md-4">
+                            <button type="button" class="btn btn-secondary" ><a href="/sucesso.html" class="link">Salvar</a></button>
+                            </div><br>
+                    </form>
+                </div>
+            </div>
+            <div class="col align-self-end"></div>
+        </div>
+    </div>
+</body>
+</html>
